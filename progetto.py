@@ -17,6 +17,10 @@ from xgboost import XGBClassifier
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 
+##################################################################################
+#DATASET AVAILABLE ON https://www.kaggle.com/balaka18/email-spam-classification-dataset-csv
+##################################################################################
+
 #read the dataset
 df = pd.read_csv("emails.csv")
 #remove the features "Email No." because it is only an ID
